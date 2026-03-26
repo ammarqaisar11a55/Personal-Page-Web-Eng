@@ -1,9 +1,0 @@
-<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="900" rx="40" fill="#EFDCC8"/>
-  <circle cx="400" cy="290" r="150" fill="#A35C3A"/>
-  <path d="M179 761C179 630.109 285.109 524 416 524H384C514.891 524 621 630.109 621 761V900H179V761Z" fill="#7F4326"/>
-  <circle cx="400" cy="285" r="92" fill="#F7EDE0"/>
-  <path d="M327 252C327 212.235 359.235 180 399 180H401C440.765 180 473 212.235 473 252V289H327V252Z" fill="#1F2933"/>
-  <rect x="205" y="56" width="390" height="74" rx="18" fill="#FFFDF9"/>
-  <text x="400" y="103" text-anchor="middle" fill="#7F4326" font-family="Arial, sans-serif" font-size="34" font-weight="700">Professional Headshot</text>
-</svg>
