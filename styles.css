@@ -1,0 +1,368 @@
+:root {
+  --bg: #f5f1ea;
+  --surface: #fffdf9;
+  --surface-strong: #efe4d4;
+  --text: #1f2933;
+  --muted: #52606d;
+  --accent: #a35c3a;
+  --accent-dark: #7f4326;
+  --border: #dccdbd;
+  --shadow: 0 18px 40px rgba(31, 41, 51, 0.08);
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --radius-sm: 999px;
+  --nav-height: 88px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(163, 92, 58, 0.14), transparent 30%),
+    linear-gradient(180deg, #f8f4ed 0%, var(--bg) 100%);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(14px);
+  background: rgba(248, 244, 237, 0.88);
+  border-bottom: 1px solid rgba(220, 205, 189, 0.85);
+}
+
+.navbar {
+  min-height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  color: var(--accent-dark);
+  letter-spacing: 0.06em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  font-weight: 600;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  background-color: rgba(163, 92, 58, 0.12);
+  color: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.section {
+  padding: 5.5rem 0;
+  scroll-margin-top: calc(var(--nav-height) + 1rem);
+}
+
+.hero {
+  min-height: calc(100vh - var(--nav-height));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-top: 4rem;
+}
+
+.hero-copy {
+  flex: 1 1 0;
+}
+
+.eyebrow {
+  margin: 0 0 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--muted);
+  max-width: 34rem;
+}
+
+.hero-text,
+.single-card p,
+.contact-card p,
+.project-card p,
+.achievement-card p,
+.timeline-item p,
+.info-card p {
+  color: var(--muted);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.4rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(31, 41, 51, 0.12);
+}
+
+.button.primary {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+.button.primary:hover,
+.button.primary:focus-visible {
+  background-color: var(--accent-dark);
+}
+
+.button.secondary {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.card-section .single-card,
+.info-card,
+.skill-card,
+.timeline-item,
+.achievement-card,
+.project-card,
+.contact-card {
+  background-color: rgba(255, 253, 249, 0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.single-card,
+.info-card,
+.timeline-item,
+.achievement-card,
+.contact-card {
+  padding: 1.6rem;
+}
+
+.info-block + .info-block {
+  margin-top: 2rem;
+}
+
+.info-block h3 {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+}
+
+.skills-layout,
+.project-grid,
+.contact-grid,
+.achievement-list {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.skill-card,
+.project-card,
+.achievement-card,
+.contact-card {
+  flex: 1 1 260px;
+}
+
+.skill-card,
+.project-card {
+  padding: 1.5rem;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-grid span {
+  padding: 0.65rem 0.9rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--surface-strong);
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-meta {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.project-card {
+  min-height: 100%;
+}
+
+.tools {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--surface-strong);
+  color: var(--accent-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.contact-list a {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.contact-list a:hover,
+.contact-list a:focus-visible {
+  text-decoration: underline;
+}
+
+@media (max-width: 860px) {
+  .navbar,
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --nav-height: 132px;
+  }
+
+  main,
+  .navbar {
+    width: min(100% - 1.2rem, 1120px);
+  }
+
+  .section {
+    padding: 4.5rem 0;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 2.45rem;
+  }
+}

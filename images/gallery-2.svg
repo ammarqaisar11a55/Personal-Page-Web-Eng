@@ -1,0 +1,10 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FFF8EF"/>
+  <circle cx="240" cy="253" r="82" fill="#A35C3A"/>
+  <circle cx="401" cy="223" r="82" fill="#7F4326"/>
+  <circle cx="562" cy="253" r="82" fill="#C98B64"/>
+  <path d="M134 459C134 392.726 187.726 339 254 339H266C332.274 339 386 392.726 386 459V521H134V459Z" fill="#EFDCC8"/>
+  <path d="M294 459C294 392.726 347.726 339 414 339H426C492.274 339 546 392.726 546 459V521H294V459Z" fill="#F3E5D4"/>
+  <path d="M454 459C454 392.726 507.726 339 574 339H586C652.274 339 706 392.726 706 459V521H454V459Z" fill="#E6CFB5"/>
+  <text x="400" y="88" text-anchor="middle" fill="#1F2933" font-family="Arial, sans-serif" font-size="30" font-weight="700">Team Collaboration</text>
+</svg>

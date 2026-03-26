@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Ammar Qaisar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sticky navigation bar -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#home">MAQ</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home / Intro section -->
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Portfolio Website</p>
+        <h1>Muhammad Ammar Qaisar</h1>
+        <p class="tagline">Aspiring Web Developer | SE Student Building Clean, Useful Digital Experiences</p>
+        <p class="hero-text">
+          I enjoy turning ideas into responsive, user-friendly web experiences and learning the engineering habits
+          that make software reliable, thoughtful, and easy to maintain.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Let&apos;s Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me section -->
+    <section id="about" class="section card-section">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="single-card">
+        <p>
+          My passion for software engineering crystallized through a deep dive into Data Structures and Algorithms.
+          What began as academic curiosity evolved into a disciplined daily practice of logical problem solving.
+          By consistently participating in competitive programming and applying algorithmic thinking to web development,
+          I have cultivated a mindset rooted in critical analysis, patience, and iterative improvement.
+        </p>
+      </div>
+    </section>
+
+    <!-- CV section -->
+    <section id="cv" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">CV</p>
+        <h2>Education, Skills, and Experience</h2>
+      </div>
+
+      <!-- Education -->
+      <div class="info-block">
+        <h3>Academics</h3>
+        <div class="info-card">
+          <p><strong>2023-Present:</strong> Bachelor of Science in Software Engineering, University of Lahore</p>
+          <p><strong>2021-2023:</strong> Intermediate in Computer Science, Chenab College Jhang</p>
+          <p><strong>2011-2021:</strong> Matriculation in Computer Science, The City School Jhang Campus</p>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="info-block">
+        <h3>Skills</h3>
+        <div class="skills-layout">
+          <article class="skill-card">
+            <h4>Technical Skills</h4>
+            <div class="skill-grid">
+              <span>HTML5</span>
+              <span>CSS</span>
+              <span>Tailwind CSS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>.ENV</span>
+              <span>React</span>
+              <span>React Router</span>
+              <span>C</span>
+              <span>C++</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>Ubuntu</span>
+              <span>VS Code</span>
+              <span>Postman</span>
+              <span>Vite</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Vercel</span>
+              <span>Figma</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h4>Soft Skills</h4>
+            <div class="skill-grid">
+              <span>Team Leadership</span>
+              <span>Communication</span>
+              <span>Problem Solving</span>
+              <span>Time Management</span>
+              <span>Adaptability</span>
+              <span>Collaboration</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="info-block">
+        <h3>Experience</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>Technical Project Manager</h4>
+            <p class="timeline-meta">Enorm Global · Part-time</p>
+            <p>Jan 2025 - Present · 1 yr 3 mos</p>
+            <p>Pakistan · On-site</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="info-block">
+        <h3>Certifications &amp; Achievements</h3>
+        <div class="achievement-list">
+          <article class="achievement-card">
+            <h4>BEAM 9.0 Winner - Speed Programming</h4>
+            <p>Received a certificate of appreciation and winner award for Speed Programming participation at the University of Lahore.</p>
+          </article>
+          <article class="achievement-card">
+            <h4>Techdawn Winner - Speed Programming</h4>
+            <p>Secured winner position in the Speed Programming competition at the Techdawn event.</p>
+          </article>
+          <article class="achievement-card">
+            <h4>LeetCode Problem Solving Milestone</h4>
+            <p>Built a strong competitive programming profile on LeetCode with 1059 solved problems, 12 badges, and a 1271 contest rating.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Projects Portfolio</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Notes Saver</h3>
+          <p>Our streamlined interface helps you capture tasks the moment they strike.</p>
+          <p class="tools"><strong>Tools Used:</strong> React 19, Vite 7, React Router 7, Tailwind CSS 4, Axios, React Hook Form, Framer Motion, Marked, DOMPurify, html2pdf.js, diff-match-patch, date-fns, Node.js, Express 5, MongoDB with Mongoose 9, JSON Web Token (jsonwebtoken), Passport, passport-google-oauth20, Multer, Cloudinary, Nodemailer, express-validator, dotenv</p>
+          <a class="button primary" href="https://notes-saver-full-stack-app-3g5e.vercel.app/" target="_blank" rel="noopener noreferrer">View Live</a>
+        </article>
+        <article class="project-card">
+          <h3>Ancestral Data &amp; Lineage Tracking System</h3>
+          <p>A high-performance data management platform designed to map complex genealogical relationships. Built with a focus on data integrity and recursive pathfinding, it allows users to visualize multi-generational lineages while maintaining an immutable audit trail of historical records.</p>
+          <p class="tools"><strong>Tools Used:</strong> NextJs, MySQL, TiDB</p>
+          <a class="button primary" href="https://familytreeuol.vercel.app/" target="_blank" rel="noopener noreferrer">View Live</a>
+        </article>
+        <article class="project-card">
+          <h3>Leetcode Metric</h3>
+          <p>A comprehensive dashboard that transforms raw LeetCode data into actionable insights. It tracks algorithmic proficiency across different topics, visualizes submission consistency, and provides a detailed breakdown of time and space complexity trends to identify areas for technical improvement.</p>
+          <p class="tools"><strong>Tools Used:</strong> HTML, Tailwind, JavaScript</p>
+          <a class="button primary" href="https://url-shortener-app-r9or.vercel.app/" target="_blank" rel="noopener noreferrer">View Live</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact Us</p>
+        <h2>Let&apos;s Stay Connected</h2>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-card">
+          <h3>Contact &amp; Social Links</h3>
+          <ul class="contact-list">
+            <li>
+              <span class="icon" aria-hidden="true">in</span>
+              <a href="https://www.linkedin.com/in/muhammad-ammar-qaisar-474890304" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">GH</span>
+              <a href="https://github.com/ammarqaisar11a55" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">@</span>
+              <a href="mailto:ammarqaisar1130@gmail.com">ammarqaisar1130@gmail.com</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FFF8EF"/>
+  <rect x="72" y="93" width="656" height="414" rx="28" fill="#EFDCC8"/>
+  <rect x="126" y="149" width="324" height="210" rx="16" fill="#1F2933"/>
+  <rect x="490" y="149" width="184" height="34" rx="10" fill="#A35C3A"/>
+  <rect x="490" y="205" width="136" height="20" rx="10" fill="#7F4326"/>
+  <rect x="490" y="243" width="162" height="20" rx="10" fill="#7F4326"/>
+  <rect x="490" y="281" width="120" height="20" rx="10" fill="#7F4326"/>
+  <rect x="126" y="385" width="548" height="46" rx="14" fill="#FFFDF9"/>
+  <text x="400" y="446" text-anchor="middle" fill="#1F2933" font-family="Arial, sans-serif" font-size="28" font-weight="700">Workspace Setup</text>
+</svg>
